@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif; /* Set the default font family for the entire document */
+}
+
+.container {
+  max-width: 600px; /* Set maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center; /* Center align text within the container */
+  padding: 20px; /* Add padding inside the container */
+}
+
+h1 {
+  margin-bottom: 20px; /* Add bottom margin below the main heading */
+}
+
+input[type="text"] {
+  width: 70%; /* Set width of the keyword input field */
+  padding: 10px; /* Add padding inside the input field */
+  margin-bottom: 10px; /* Add bottom margin below the input field */
+}
+
+button {
+  padding: 10px 20px; /* Add padding inside the button */
+  background-color: #007bff; /* Set background color of the button */
+  color: #fff; /* Set text color of the button */
+  border: none; /* Remove border around the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darken background color on hover */
+}
+
+#results {
+  margin-top: 20px; /* Add top margin above the results */
+  text-align: left; /* Left align text within the results container */
+}
+
+
+
